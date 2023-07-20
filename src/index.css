@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-[normal] m-0;
+  background-color: var(--noble-black-500, #363a3d);
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
